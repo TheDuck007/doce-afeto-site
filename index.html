@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Doces artesanais feitos com carinho. Conheça o cardápio e peça pelo WhatsApp.">
+<title>Doce Afeto | Doceria</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header"><a class="logo" href="#inicio">✦ Doce <span>Afeto</span></a><nav aria-label="Menu principal"><a href="#inicio">Início</a><a href="#cardapio">Cardápio</a><a href="#sobre">Sobre</a><a href="#contato">Contato</a></nav><button id="cartButton" class="cart-button" type="button">🛍️ Carrinho (<span id="cartCount">0</span>)</button></header>
+<main><section id="inicio" class="hero"><div class="hero-content"><span class="eyebrow">DOCES ARTESANAIS • FEITOS COM AMOR</span><h1>Um pedacinho de <em>felicidade</em> em cada mordida.</h1><p>Brigadeiros, brownies e delícias irresistíveis para transformar seu dia em um momento especial.</p><a class="primary" href="#cardapio">Conhecer o cardápio ↗</a></div><div class="hero-art" aria-hidden="true"><div class="sweet">🍫</div><span>Doce é celebrar!</span></div></section>
+<section id="cardapio" class="section"><div class="section-heading"><span class="eyebrow">ESCOLHA SEUS FAVORITOS</span><h2>Nosso cardápio</h2><p>Selecione os doces e monte seu pedido.</p></div><div id="products" class="products"></div></section>
+<section id="sobre" class="about section"><div><span class="eyebrow">NOSSA ESSÊNCIA</span><h2>Carinho em forma de doce.</h2><p>Na Doce Afeto, cada receita é preparada com atenção aos detalhes, ingredientes selecionados e muito amor. Queremos fazer parte dos seus melhores momentos.</p></div><div class="about-art" aria-hidden="true">💜<small>Feito com afeto</small></div></section>
+<section id="contato" class="contact section"><span class="eyebrow">FALE COM A GENTE</span><h2>Seu momento doce começa aqui!</h2><p>Tem dúvidas ou quer fazer uma encomenda especial?</p><a id="contactLink" class="primary" target="_blank" rel="noopener noreferrer">Conversar no WhatsApp ↗</a></section></main>
+<footer>© <span id="year"></span> Doce Afeto • Feito com 💜</footer>
+<div id="overlay" class="overlay" hidden></div><aside id="cartPanel" class="cart-panel" aria-label="Carrinho de compras" aria-hidden="true"><div class="cart-top"><h2>Seu carrinho</h2><button id="closeCart" type="button" aria-label="Fechar carrinho">✕</button></div><div id="cartItems" class="cart-items"></div><div class="cart-bottom"><p>Total: <strong id="cartTotal">R$ 0,00</strong></p><button id="checkout" class="primary" type="button">Finalizar pelo WhatsApp ↗</button><small>O pagamento e a entrega são combinados diretamente com a doceria.</small></div></aside>
+<script src="script.js"></script>
+</body></html>
