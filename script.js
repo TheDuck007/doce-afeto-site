@@ -1,11 +1,11 @@
 // PERSONALIZE AQUI: troque pelo WhatsApp da doceria, com DDI 55 e DDD, apenas números.
-const WHATSAPP = '+5582987186690';
+const WHATSAPP = '5511999999999';
 // Edite os produtos, preços e emojis aqui.
 const products = [
-  {id:1,name:'Brigadeiro tradicional',description:'Chocolate intenso com granulado especial.',price:2.50,emoji:'🍫'},
-  {id:2,name:'Brigadeiro de ninho com nutella',description:'Uma combinação delicada e irresistível.',price:2,50,emoji:'🍪'},
-  {id:3,name:'Brigadeiro de paçoca',description:'Crocante por fora e macio por dentro.',price:2,50,emoji:'🍪'},
-  {id:4,name:'Brigadeiro de morango ',description:'Massa fofinha com cobertura cremosa.',price:8.50,emoji:'🧁'},
+  {id:1,name:'Brigadeiro Gourmet',description:'Chocolate intenso com granulado especial.',price:4.50,emoji:'🍫'},
+  {id:2,name:'Brigadeiro de Morango',description:'Uma combinação delicada e irresistível.',price:5.00,emoji:'🍓'},
+  {id:3,name:'Brownie de Chocolate',description:'Crocante por fora e macio por dentro.',price:9.00,emoji:'🍪'},
+  {id:4,name:'Cupcake Especial',description:'Massa fofinha com cobertura cremosa.',price:8.50,emoji:'🧁'},
   {id:5,name:'Caixa com 6 Docinhos',description:'Uma seleção para adoçar seu dia.',price:26.00,emoji:'🎁'},
   {id:6,name:'Bolo no Pote',description:'Camadas generosas de sabor e carinho.',price:12.00,emoji:'🍰'}
 ];
